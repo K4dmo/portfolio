@@ -57,7 +57,7 @@ export default function AboutPage() {
             <h2 className="text-3xl font-bold mb-6 gradient-text">My Story</h2>
             <div className="space-y-4 text-gray-600 dark:text-gray-300">
               <p>
-                I'm a multidisciplinary professional based in <strong>Cianorte, Brazil</strong>, working at the intersection of <strong>software engineering, product development, and team leadership</strong>.
+                I’m a multidisciplinary professional based in <strong>Cianorte, Brazil</strong>, working at the intersection of <strong>software engineering, product development, and team leadership</strong>.
               </p>
               <p>
                 My journey began in backend and frontend development, evolving through full-stack roles until reaching project management — where I now lead teams, accelerate delivery pipelines, and architect solutions grounded in modern engineering principles.

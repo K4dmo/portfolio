@@ -53,7 +53,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Have a project in mind? Want to collaborate? Or just want to say
-            hello? I'd love to hear from you!
+            hello? I’d love to hear from you!
           </p>
         </motion.div>
 
@@ -159,7 +159,7 @@ export default function ContactPage() {
                   animate={{ opacity: 1, y: 0 }}
                   className="p-4 rounded-lg bg-green-500/20 border border-green-500/30 text-green-300 text-sm text-center"
                 >
-                  Message sent successfully! I'll get back to you soon.
+                  Message sent successfully! I’ll get back to you soon.
                 </motion.div>
               )}
 
@@ -185,10 +185,10 @@ export default function ContactPage() {
               transition={{ duration: 0.6, delay: 0.3 }}
             >
               <h2 className="text-3xl font-bold mb-6 gradient-text">
-                Let's Connect
+                Let’s Connect
               </h2>
               <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-                I'm open to leadership-driven engineering roles, senior full-stack opportunities, product-focused technical positions, and long-term partnerships. If you're looking for someone who blends technical depth, delivery mindset, leadership, and continuous evolution, I'd love to connect.
+                I’m open to leadership-driven engineering roles, senior full-stack opportunities, product-focused technical positions, and long-term partnerships. If you’re looking for someone who blends technical depth, delivery mindset, leadership, and continuous evolution, I’d love to connect.
               </p>
               <div className="space-y-4">
                 <motion.a
