@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio Website
+
+An elegant, highly professional portfolio website featuring modern glassmorphism design, smooth animations, and state-of-the-art UI/UX patterns.
+
+## Features
+
+- 🎨 **Glassmorphism Design** - Modern, translucent UI elements with backdrop blur effects
+- ✨ **Smooth Animations** - Powered by Framer Motion for fluid, engaging interactions
+- 📱 **Fully Responsive** - Optimized for all devices and screen sizes
+- 🚀 **Next.js 14** - Built with the latest Next.js features and App Router
+- 💎 **TypeScript** - Type-safe development for better code quality
+- 🎯 **Modern UI/UX** - Best-in-class user experience patterns
+
+## Pages
+
+- **Homepage** - Concise introduction with preview cards for each section
+- **About Me** - Detailed background, skills, and philosophy
+- **Professional Experience** - Career timeline and achievements
+- **Projects** - Showcase of work with detailed project cards
+- **Get in Contact** - Contact form and social media links
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ and npm/yarn/pnpm
+
+### Installation
+
+1. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+
+2. Run the development server:
 ```bash
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Update Personal Information
 
-## Learn More
+1. **About Page** (`app/about/page.tsx`): Update the personal story, philosophy, and skills
+2. **Experience Page** (`app/experience/page.tsx`): Replace with your actual work experience
+3. **Projects Page** (`app/projects/page.tsx`): Add your real projects with links
+4. **Contact Page** (`app/contact/page.tsx`): Update email, social media links, and form handling
 
-To learn more about Next.js, take a look at the following resources:
+### Styling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Global styles: `app/globals.css`
+- Tailwind config: `tailwind.config.ts`
+- Glassmorphism utilities are defined in `globals.css`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Colors & Theme
 
-## Deploy on Vercel
+The color scheme uses purple and blue gradients. You can customize these in:
+- `app/globals.css` - CSS variables and gradient definitions
+- `tailwind.config.ts` - Tailwind color extensions
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Framework**: Next.js 14 (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+
+## Build for Production
+
+```bash
+npm run build
+npm start
+```
+
+## License
+
+This project is open source and available for personal and commercial use.
+
