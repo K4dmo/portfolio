@@ -104,10 +104,15 @@ const projects = [
     description:
       'A mobile application designed to give users fast, intuitive access to organizational data, product features, and essential workflows.',
     role: [
+      'Project Owner: roadmap, priorities, and stakeholder alignment for the mobile experience',
       'Led mobile development using React Native and Expo',
-      'Designed lightweight, intuitive UI/UX',
+      'Backend development and integrations with core platform and APIs',
+      'Designed lightweight, intuitive UI/UX tailored to mobile workflows',
       'Implemented authentication, navigation, and integration with Yungu APIs',
-      'Managed builds and deployment for iOS and Android',
+      'Managed builds and deployment for iOS and Android (CI/CD)',
+      'Requirements management, validation, and ongoing evolution with stakeholders',
+      'Competitor and market research to guide positioning and feature set',
+      'Solution architecture, product shaping, and experimentation around how VAX should live on mobile',
     ],
     impact: [
       'Improved operational mobility',
