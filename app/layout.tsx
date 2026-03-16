@@ -4,8 +4,9 @@ import Navigation from '@/components/Navigation'
 import { ThemeProvider } from '@/contexts/ThemeContext'
 
 export const metadata: Metadata = {
-  title: 'Portfolio | Project Manager & Full-Stack Engineer',
-  description: 'Project Manager and Full-Stack Engineer with 5+ years of experience delivering robust web and mobile solutions. Crafting high-impact digital products through engineering excellence and leadership.',
+  title: 'Pedro Pancotte',
+  description:
+    'Pedro Pancotte — Software Engineer focused on AI, systems, and mobile. Building high-impact digital products with engineering rigor and thoughtful design.',
 }
 
 export default function RootLayout({
