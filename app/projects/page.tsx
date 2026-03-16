@@ -342,7 +342,7 @@ export default function ProjectsPage() {
             Interested in Collaborating?
           </h2>
           <p className="text-gray-600 dark:text-gray-300 mb-6 max-w-2xl mx-auto">
-            I'm open to leadership-driven engineering roles, senior full-stack opportunities, product-focused technical positions, and long-term partnerships. Let's create something meaningful that moves products forward and delivers real impact.
+            I’m open to leadership-driven engineering roles, senior full-stack opportunities, product-focused technical positions, and long-term partnerships. Let’s create something meaningful that moves products forward and delivers real impact.
           </p>
           <motion.a
             href="/contact"
